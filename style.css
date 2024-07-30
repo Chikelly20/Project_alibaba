@@ -1,0 +1,51 @@
+body{
+    
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(2, 0, 0);
+    height: fit-content;
+}
+.addline{
+    height: 30px;
+    background-color: rgb(249, 242, 232);
+}
+
+header input{
+    border-radius: 10px;
+    float: right;
+}
+#alibaba{
+float: left;
+}
+
+.logoline{
+    float: right;
+}
+
+.cat{
+    margin-top: 30px;
+    a{
+        padding: 8px;
+        color: rgb(254, 254, 254) ;
+        text-decoration: none;
+    }
+}
+.catline{
+    float: left; 
+}
+
+.helpline{
+    float: right;
+}
+
+.vidline{
+    a{
+        float: left;
+        text-decoration: none;
+    }
+}
+section{
+    background-image: url("bgp.jpg");
+}
