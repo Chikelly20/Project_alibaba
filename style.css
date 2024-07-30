@@ -1,15 +1,24 @@
-body{
+*{
+    font-family: Arial, Helvetica, sans-serif;
     
-    background-repeat: no-repeat;
 }
 
-header{
-    background-color: rgb(2, 0, 0);
-    height: fit-content;
+.header {
+    background-image: url("bgp.jpg") ; /* Replace with your image URL */
+    background-repeat: no-repeat;
+    background-position: center; /* You can adjust this as needed */
+    padding:; /* Add padding for spacing */
+    text-align: center; /* Center the header text */
+    color: white; /* Set the text color */
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    margin-top: 0%;
 }
+
 .addline{
-    height: 30px;
-    background-color: rgb(249, 242, 232);
+   margin-top: 0px;
+    
 }
 
 header input{
@@ -21,11 +30,12 @@ float: left;
 }
 
 .logoline{
+    width: 100%;
     float: right;
 }
 
 .cat{
-    margin-top: 30px;
+    width: 100%;
     a{
         padding: 8px;
         color: rgb(254, 254, 254) ;
@@ -42,10 +52,71 @@ float: left;
 
 .vidline{
     a{
+        color: white;
         float: left;
         text-decoration: none;
+       
     }
 }
-section{
-    background-image: url("bgp.jpg");
+.vid{
+    float: left;
+    width: 100%;
+    margin-top:50px;
+}
+
+#cocreate{
+width: 100%;
+height:auto;
+margin: 0;
+padding: 0;
+}
+#icons{
+    float: right;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .search-button {
+    position: relative;
+    left: 20px;
+    top: -5px;
+    padding: 8px 16px;
+    background-color: #fe5405;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .btn{
+    border-radius: 30px;
+    border: 2px solid #e0f2f7;
+    background-color: transparent;
+    color: white;
+    padding: 0 30px 0 30px;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline;
+
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+.button p {
+    margin-right: 1rem;
+}
+button{
+    margin: 20px 10px 0px 20px;
 }
