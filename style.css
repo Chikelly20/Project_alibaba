@@ -237,9 +237,15 @@ gap: 25px;
 }
 
 .shop{
-    
+    height: 600px;
+    background-color: rgba(244, 239, 236, 0.781);
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
 }
-
+.top{
+   font-size: x-large; 
+   
+}
 
 
 
