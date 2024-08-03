@@ -193,8 +193,52 @@ bottom: 40px;
     font-size: x-large; 
 }
 
+.slider{
+    background-color: white;
+    height: 300px;
+    margin-top: 9rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
+.bold{
+    font-size: xx-large;
+}
+.counter{
+display: flex;
+width: 35%;
+flex-flow: column nowrap;
+gap: 25px;
 
 
+}
+.counter_sub{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.grid{
+    display: flex;
+    flex-flow: column wrap;
+    border-left: solid 4px rgb(239, 231, 231);
+    width: 100%;
+    padding-left: 0.8rem;
+
+}
+.grid h3{
+    color: #f60;
+    font-size: 2.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.grid p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shop{
+    
+}
 
 
 
