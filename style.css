@@ -142,6 +142,9 @@ bottom: 40px;
     border: solid #f60;
 }
 .main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 
 }
 .tags{
@@ -149,12 +152,13 @@ bottom: 40px;
     flex-flow: row;
     background-color: #3a190b;
     color: white;
-    height: 220px;
+    height: 250px;
     padding: 60px 0 100px 0;  
 } 
 .menu{
     display: flex;
     justify-content: space-between;
+    height: 100%;
     
 }
 .menu .tag{
@@ -165,12 +169,27 @@ bottom: 40px;
     padding: 18px;
     margin: 0 20px 0 20px;
 
+
 }
+.tag h4{
+    font-size: medium;
+    font-weight: 600;
+}
+
+
 .menu .tag:hover{
     width: 25%;
     background-color: rgba(255, 102, 0, .12);
 }
-
+.tag .text{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tag .text p{
+    font-size: smaller;
+    text-justify: auto;
+}
 .carry{
     display: flex;
     background-color: #8971671f;
@@ -492,11 +511,14 @@ width: 10%;
 font-size: 20px;
 }
 
-.submit{
-    display: flex;
-    justify-content: center;
-}
 
+#signupbtn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #f0f0f0;
+    font-weight: 600;
+}
 
 
 
@@ -507,4 +529,15 @@ font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+
+@media (max-width:700px) {
+    .tags{
+        width: 100%;
+        
+    }
+    .shop{
+        width: 100%;
+    }
+    
 }
